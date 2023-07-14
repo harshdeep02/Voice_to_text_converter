@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    /* width: 100%; */
+    justify-content: center
+}
+.main-content{
+  height: 23rem;
+  width: 37rem;
+  border: 2px solid #e51000;
+  background-color: #d9e0e3;
+  border-radius: 0.4rem
+}
+body{
+  background-color:#b6cfdc;
+}
+.btnStyle button{
+  margin: 1rem 1rem;
+  padding: 0.3rem 1.5rem;
+  background-color: #e7ed9e;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+@media only screen and (min-width:422px) and (max-width:624px){
+  .main-content {
+  height: 22rem;
+    width: 25rem
+  }
+}
+@media only screen and (min-width:300px) and (max-width:421px){
+  .main-content {
+  height: 13rem;
+    width: 18rem
+  }
+}
+@media only screen and(max-width:299px){
+  .main-content {
+  height: 13rem;
+    width: 13rem
+  }
+}
